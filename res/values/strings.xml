@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SilentPrayer</string>
+    <string name="action_settings">Settings</string>
+    <string name="location">Location:</string>
+    <string name="volume">Volume:</string>
+    <string name="prayer_times">Prayer Times:</string>
+    <string name="fajrTitle">Fajr</string>
+    <string name="image_button">This is image button</string>
+    <string name="dhuhrTitle">Dhuhr</string>
+    <string name="asrTitle">Asr</string>
+    <string name="maghribTitle">Maghrib</string>
+    <string name="ishaTitle">Isha</string>
+    <string name="updateBtnText">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="settingsBtnText">Settings</string>
+    <string name="countryTitle">Country:</string>
+    <string name="cityTitle">City:</string>
+
+    <string-array name="countries">
+        <item>Finland</item>
+        <item>Bangladesh</item>
+    </string-array>
+    <string-array name="cities">
+        <item>Turku</item>
+        <item>Helsinki</item>
+    </string-array>
+    <string-array name="calculation_methods">
+        <item>ISNA</item>
+        <item>MWL</item>
+    </string-array>
+    <string-array name="juristic_methods">
+        <item>Standard</item>
+        <item>Hanafi</item>
+    </string-array>
+
+    <string name="save">Save</string>
+    <string name="calculationTitle">Calculation method:</string>
+    <string name="juristicTitle">Juristic method:</string>
+    <string name="silentPeriodTitle">Silent period:</string>
+
+    <string-array name="silent_periods">
+        <item>10 min</item>
+        <item>20 min</item>
+        <item>Custom</item>
+    </string-array>
+
+    <string name="customTimeTitle">Enter custom period (min):</string>
+    <string name="title_settings">PrayerTimeSettings</string>
+
+</resources>

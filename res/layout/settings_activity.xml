@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settingsActivityId"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/silent_prayer_background"
+    tools:context="com.shamim.silentprayer.SettingsActivity" >
+
+    <TableRow
+        android:paddingLeft="40dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:gravity="start"
+            android:text="@string/countryTitle"
+            android:textColor="#808080"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/countryId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:entries="@array/countries"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:paddingLeft="40dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:gravity="start"
+            android:text="@string/cityTitle"
+            android:textColor="#808080"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/cityId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:entries="@array/cities"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:paddingLeft="40dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:gravity="start"
+            android:text="@string/calculationTitle"
+            android:textColor="#808080"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/calculationId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:entries="@array/calculation_methods"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:paddingLeft="40dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:gravity="start"
+            android:text="@string/juristicTitle"
+            android:textColor="#808080"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/juristicId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:entries="@array/juristic_methods"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:paddingLeft="40dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:gravity="start"
+            android:text="@string/silentPeriodTitle"
+            android:textColor="#808080"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/silentPeriodId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:entries="@array/silent_periods"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:paddingLeft="40dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/customTitleId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:gravity="start"
+            android:text="@string/customTimeTitle"
+            android:textColor="#808080"
+            android:visibility="invisible"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/customTimeId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:textColor="#FFFFFF"
+            android:visibility="invisible"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp" >
+
+        <Button
+            android:id="@+id/cancelSettingsId"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="50"
+            android:background="#808000"
+            android:text="@string/cancel"
+            android:textColor="#600080"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/saveSettingsId"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="50"
+            android:background="#808000"
+            android:text="@string/save"
+            android:textColor="#600080"
+            android:textStyle="bold" />
+    </TableRow>
+
+</TableLayout>

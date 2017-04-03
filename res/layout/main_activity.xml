@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainActivityId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/silent_prayer_background"
+    tools:context="com.shamim.silentprayer.MainActivity" >
+
+    <DigitalClock
+        android:id="@+id/currentTimeId"
+        style="@style/SingleElementStyle"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/currentDateId"
+        style="@style/SingleElementStyle"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#808000"
+        android:textSize="14sp" />
+
+    <TableRow>
+
+        <TextView
+            style="@style/MultipleElementStyle"
+            android:layout_weight="30"
+            android:text="@string/volume" />
+
+        <Button
+            android:id="@+id/volStatusId"
+            style="@style/MultipleElementStyle"
+            android:layout_height="18dp"
+            android:layout_weight="10"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/volCounterId"
+            style="@style/MultipleElementStyle"
+            android:layout_weight="60" />
+    </TableRow>
+
+    <View
+        style="@style/MarginedSingleElementStyle"
+        android:layout_height="2dp"
+        android:background="#808080" />
+
+    <TextView
+        android:id="@+id/locationId"
+        style="@style/MarginedSingleElementStyle"
+        android:gravity="start"
+        android:textColor="#808000"
+        android:textSize="15sp" />
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkboxFajrId"
+            style="@style/MarginedMultipleElementStyle"
+            android:layout_weight="1"
+            android:button="@drawable/checkbox_on"
+            android:onClick="onCheckboxClicked" />
+
+        <TextView
+            style="@style/MultipleElementStyle"
+            android:layout_weight="2"
+            android:gravity="start"
+            android:text="@string/fajrTitle"
+            android:textColor="#808080" />
+
+        <TextView
+            android:id="@+id/fajrId"
+            style="@style/MultipleElementStyle"
+            android:layout_weight="7"
+            android:textColor="#808000"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkboxDhuhrId"
+            style="@style/MarginedMultipleElementStyle"
+            android:layout_weight="1"
+            android:button="@drawable/checkbox_on"
+            android:onClick="onCheckboxClicked" />
+
+        <TextView
+            style="@style/MultipleElementStyle"
+            android:layout_weight="2"
+            android:gravity="start"
+            android:text="@string/dhuhrTitle"
+            android:textColor="#808080" />
+
+        <TextView
+            android:id="@+id/dhuhrId"
+            style="@style/MultipleElementStyle"
+            android:layout_weight="7"
+            android:textColor="#808000"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkboxAsrId"
+            style="@style/MarginedMultipleElementStyle"
+            android:layout_weight="1"
+            android:button="@drawable/checkbox_on"
+            android:onClick="onCheckboxClicked" />
+
+        <TextView
+            style="@style/MultipleElementStyle"
+            android:layout_weight="2"
+            android:gravity="start"
+            android:text="@string/asrTitle"
+            android:textColor="#808080" />
+
+        <TextView
+            android:id="@+id/asrId"
+            style="@style/MultipleElementStyle"
+            android:layout_weight="7"
+            android:textColor="#808000"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkboxMaghribId"
+            style="@style/MarginedMultipleElementStyle"
+            android:layout_weight="1"
+            android:button="@drawable/checkbox_on"
+            android:onClick="onCheckboxClicked" />
+
+        <TextView
+            style="@style/MultipleElementStyle"
+            android:layout_weight="2"
+            android:gravity="start"
+            android:text="@string/maghribTitle"
+            android:textColor="#808080" />
+
+        <TextView
+            android:id="@+id/maghribId"
+            style="@style/MultipleElementStyle"
+            android:layout_weight="7"
+            android:textColor="#808000"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkboxIshaId"
+            style="@style/MarginedMultipleElementStyle"
+            android:layout_weight="1"
+            android:button="@drawable/checkbox_on"
+            android:onClick="onCheckboxClicked" />
+
+        <TextView
+            style="@style/MultipleElementStyle"
+            android:layout_weight="2"
+            android:gravity="start"
+            android:text="@string/ishaTitle"
+            android:textColor="#808080" />
+
+        <TextView
+            android:id="@+id/ishaId"
+            style="@style/MultipleElementStyle"
+            android:layout_weight="7"
+            android:textColor="#808000"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <WebView
+        android:id="@+id/browserId"
+        style="@style/SingleElementStyle"
+        android:layout_height="20dp" />
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/settingsBtnId"
+            style="@style/SilentPrayerButtonStyle"
+            android:layout_marginLeft="35dp"
+            android:text="@string/settingsBtnText" />
+
+        <Button
+            android:id="@+id/updateBtnId"
+            style="@style/SilentPrayerButtonStyle"
+            android:layout_marginLeft="90dp"
+            android:text="@string/updateBtnText" />
+    </TableRow>
+
+</TableLayout>

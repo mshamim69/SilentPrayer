@@ -1,0 +1,22 @@
+{
+	"juristicMethod":
+	{
+		"Standard": "1",
+		"Hanafi": "2"
+	},
+	"calculationMethod":
+	{
+		"ISNA":
+		{
+			"method_code": "5",
+			"fajr_angle": "15.0",
+			"isha_angle": "15.0"
+		},
+		"MWL":
+		{
+			"method_code": "4",
+			"fajr_angle": "",
+			"isha_angle": ""
+		}
+	}
+}

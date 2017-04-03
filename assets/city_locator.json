@@ -1,0 +1,36 @@
+{
+	"Finland":
+	{
+		"Turku":
+		{
+			"place_code": "Turku, FI",
+			"latitude": "60.4167",
+			"longitude": "22.1831",
+			"timezone": "GMT%2B2"		
+		},
+		"Helsinki":
+		{
+			"place_code": "",
+			"latitude": "",
+			"longitude": "",
+			"timezone": ""		
+		}
+	},
+	"Bangladesh":
+	{
+		"Dhaka":
+		{
+			"place_code": "",
+			"latitude": "",
+			"longitude": "",
+			"timezone": ""			
+		},
+		"Chittagong":
+		{
+			"place_code": "",
+			"latitude": "",
+			"longitude": "",
+			"timezone": ""			
+		}		
+	}
+}		
